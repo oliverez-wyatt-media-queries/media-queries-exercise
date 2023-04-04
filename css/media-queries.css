@@ -55,6 +55,7 @@ nav{
 }
 
 .nav-links li{
+    align-items: stretch;
     padding: .5em 7em;
     background-color: lightgray;
     margin: .5em;
@@ -79,21 +80,25 @@ footer{
         display: none;
     }
 
-    h1{
+    h1 {
         justify-content: left;
         display: inline-block;
         float: right;
     }
 
-nav{
-    display: flex;
+    nav {
+        display: flex;
+
+    }
+
+    .nav-links {
+
+    }
 
 }
-.nav-links{
 
-}
 
-}
+
 
 
 
